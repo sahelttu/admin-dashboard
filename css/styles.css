@@ -254,6 +254,8 @@ input[type=text]:focus{
     border-radius: 3%;
     justify-self: center;
     border-left: 3px solid var(--blue);
+    display: flex;
+    flex-direction: column;
 }
 
 .item-title{
@@ -266,6 +268,24 @@ input[type=text]:focus{
 .item-description{
     margin: 10px 10px;
 
+}
+
+.item-functions{
+    display: flex;
+    justify-content: end;
+}
+
+.item-button{
+    height: 50px;
+    width: 50px;
+    border-color: transparent;
+    background-color: white;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.item-button:hover{
+    background-color: var(--ice-blue);
 }
 
 .announcements{
